@@ -7,7 +7,7 @@ const Header = () => {
         <spam>webDev</spam> News
       </h1>
       <p className={headerStyles.description}>
-        kepp up to data with the latest web dev news
+        keep up to data with the latest web dev news
       </p>
     </div>
   );
