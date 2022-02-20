@@ -1,13 +1,12 @@
 import Head from "next/head";
 import ArticleList from "../components/ArticleList";
+import { useRouter } from "next/router";
 
 export default function Home({ articles }) {
-  // console.log("---->" + articles);
   return (
     <div>
-      <h1>welcome</h1>
       <Head>
-        <title>web dev news</title>
+        <title>HOMEPAGE</title>
       </Head>
       <ArticleList articles={articles} />
     </div>
